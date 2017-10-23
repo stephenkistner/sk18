@@ -1,0 +1,64 @@
+html {
+  font-family: $fonts;
+  font-size: $rem;
+  color: $black;
+}
+
+h1 {
+  font-size: 2.566rem;
+}
+
+h2 {
+ font-size: 1.602rem;
+}
+
+h3 {
+  font-size: 1.266rem;
+}
+
+p {
+  font-size: .889rem;
+}
+
+p.emph {
+  font-size: 2.027rem;
+}
+
+p.small {
+  font-size: .702rem;
+}
+
+p.giant {
+  font-size: 3.653rem;
+  font-weight: bold;
+}
+
+@mixin type--md() {
+  h1 {
+    font-size: 3.247rem;
+  }
+
+  h2 {
+   font-size: 1.602rem;
+  }
+
+  h3 {
+    font-size: 1.266rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  p.emph {
+    font-size: 2.281rem;
+  }
+
+  p.small {
+    font-size: .79rem;
+  }
+
+  p.giant {
+    font-size: 5.852rem;
+  }
+}

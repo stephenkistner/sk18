@@ -5,7 +5,7 @@ import WelcomeMessage from './components/WelcomeMessage.jsx';
 import SCSS from './styles/app.scss';
 
 const appData = {
-  title: 'Hello'
+  title: 'Something cool'
 }
 
 ReactDOM.render(

@@ -1,0 +1,20 @@
+
+    /* Small (sm)  -- smartphones*/
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Medium (md) --  large phones & tablets */
+    @media only screen and (min-width : 768px) {
+      @include type--md();
+    }
+
+    /* Large (lg) -- small desktop windows */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* X-Large (xl) --  large desktop windows...*/
+    @media only screen and (min-width : 1200px) {
+
+    }

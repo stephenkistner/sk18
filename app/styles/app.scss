@@ -1,3 +1,7 @@
-body {
+@import '_settings/_colors',
+        '_settings/_vars';
 
-}
+@import '_base/_fonts',
+        '_base/_typography';
+
+@import '_layout/_media-queries';
