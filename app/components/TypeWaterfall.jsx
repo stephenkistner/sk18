@@ -1,8 +1,8 @@
-// /app/components/WelcomeMessage.jsx
+// /app/components/TypeWaterfall.jsx
 
 import React from 'react';
 
-export default class WelcomeMessage extends React.Component {
+export default class TypeWaterfall extends React.Component {
   render() {
     return (
       <div>

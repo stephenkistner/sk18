@@ -9,13 +9,10 @@ const injectConfig = new HtmlWebpackPlugin({
 
 var path = require("path");
 module.exports = {
-  //context: __dirname + '/app',
-  //entry: './index.js',
   entry: {
-    app: ["./app/app.js"]
+    app: ["./app/index.js"]
   },
   output: {
-    //path: __dirname + '/build',
     path: path.resolve(__dirname, "prod"),
     filename: 'bundle.js'
   },
